@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+}
+nav{
+    box-shadow:5px 5px 5px lightskyblue;
+    position: fixed;
+    top:0;
+    width:100vw;
+}
+.na{
+    display: flex;
+    background-color:navy;
+    color:white;
+    font-size:25px;
+    height:45px;
+}
+.con,.qu{
+    margin-left:10px;
+}
+.name{
+    font-size:35px;
+    margin:auto 20px;
+}
+nav a{
+    margin:auto 3rem;
+}    
+.fir,.sec,.thr,.four{
+	color:white;
+}
+.items{
+    margin-top: 6px;
+    margin-left: 45rem;
+    color:white;
+}
+.mid{
+    margin-top:25px;
+    display:flex;
+}
+.cap,.em,.ph,.Fa,.addr,.qu{
+    color:navy;
+    font-size:25px;
+    margin-top:20px;
+}
+.cap{
+    font-size:45px;
+}
+.add{
+    margin-top:40px;
+    font-size: 20px;
+}
+.em1,.ph1,.Fa1,.addr1{
+    color:black;
+    font-size:20px;
+}
+.call{
+    margin-top: 80px;
+    margin-left:200px;
+    color:navy;
+    font-size:20px;
+    width:210px;
+    background-color:lightskyblue; 
+    font-weight:5;
+    padding:20px;
+}
+.call :hover{
+    font-weight:900;
+    cursor:pointer;
+}
+.dia{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right:10px;
+}
+img{
+    border-radius:20px;
+}
+
+.def p{
+    margin-top:8px;
+    font-size: 20px;
+}
+.co{
+    padding:5px;
+    font-size:10px;
+}
+.head,.he{
+    font-size:25px;
+    font-weight:600;
+    margin-bottom:10px;
+    color:navy;
+}
+.he{
+    margin-top:10px;
+}
+.sym
+{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 15px;
+}
+
+.footer{
+    background-color: lightskyblue;
+    display:flex;
+    justify-content: space-between;
+    margin-top:50px;
+    padding:20px;
+}
+.sym i{
+    font-size:15px;
+}
+li{
+    font-size: 15px;
+}
+li:hover{
+    color: grey;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;   
+}
+
+nav a:hover{
+    color: grey;
+}
